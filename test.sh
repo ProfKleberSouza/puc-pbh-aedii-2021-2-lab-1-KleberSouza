@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # RECEBE E VAI DIRETORIO PARA EXECUTAR O TESTE
-DIR=$1
+DIR=$1 
 pushd $DIR > /dev/null
 # COMPILA O CODIGO
 make > /dev/null
